@@ -46,6 +46,7 @@ def checkio(data):
      return print_equation(r_0, x_0, y_0)
 
 print(checkio("(2,2),(6,2),(2,6)"))
+####
 if __name__ == '__main__':
     assert checkio("(2,2),(6,2),(2,6)") == "(x-4)^2+(y-4)^2=2.83^2"
     assert checkio("(3,7),(6,9),(9,7)") == "(x-6)^2+(y-5.75)^2=3.25^2"
